@@ -23,13 +23,13 @@
 <body>
     <h1 style="text-align: center;">Tableau des Variables PHP</h1>
     <?php
-    // Déclaration des variables
+   
     $booleanVar = true;
     $integerVar = 42;
     $stringVar = "Bonjour";
     $floatVar = 3.14;
 
-    // Création d'un tableau des variables
+   
     $variables = [
         ["type" => "boolean", "nom" => "booleanVar", "valeur" => $booleanVar ? 'true' : 'false'],
         ["type" => "integer", "nom" => "integerVar", "valeur" => $integerVar],
@@ -38,7 +38,7 @@
     ];
     ?>
 
-    <!-- Génération du tableau HTML -->
+    
     <table>
         <thead>
             <tr>
