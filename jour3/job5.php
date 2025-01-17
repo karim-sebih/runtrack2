@@ -48,7 +48,7 @@
     ?>
 
     <!-- Affichage des résultats dans un tableau HTML -->
-    <table border="1">
+    <table>
         <thead>
             <tr>
                 <th>Voyelles</th>
