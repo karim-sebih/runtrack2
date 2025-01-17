@@ -1,17 +1,17 @@
 <?php
 
+// Déclaration de la chaîne
 $str = "Dans l'espace, personne ne vous entend crier";
 
-
-// Compteur pour le nombre de caractères
+// Initialisation du compteur
 $compteur = 0;
 
-// Parcourir la chaîne
-for ($i = 0; isset($str[$i]); $i++) {
+// Parcourir la chaîne caractère par caractère
+while (isset($str[$compteur])) {
     $compteur++;
 }
 
-// Afficher le résultat
+// Affichage du résultat
 echo "Le nombre de caractères dans la chaîne est : $compteur";
 
 ?>
