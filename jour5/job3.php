@@ -1,10 +1,11 @@
-<?
-function gethello(){
-    return "Hello La Plateforme ";
+<?php
+
+function getHello() {
+    
+    return "Hello LaPlateforme!";
 }
 
-echo gethello()
+$message = getHello();
 
-
-
+echo $message;
 ?>
