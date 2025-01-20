@@ -31,7 +31,7 @@
 
         echo "<pre>";
 
-        // Dessiner le toit (triangle avec un seul `^` au sommet)
+        // Dessiner le toit 
         for ($i = 0; $i < $largeur; $i++) {
             for ($j = 0; $j < $largeur * 2 - 1; $j++) {
                 if ($i == 0 && $j == $largeur - 1) {
@@ -42,7 +42,7 @@
                 } elseif ($j == $largeur - 1 + $i) {
                     echo "\\";
                 } elseif ($j > $largeur - 1 - $i && $j < $largeur - 1 + $i) {
-                    echo "_"; // Remplace le remplissage du toit par `_`
+                    echo "_"; 
                 } else {
                     echo " ";
                 }
