@@ -1,0 +1,18 @@
+body {
+    background-color: #222;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f5f5f5;
+}
+form {
+    padding: 20px;
+    border: 2px solid #f5f5f5;
+    background-color: #444;
+    border-radius: 5px;
+}
+button {
+    background-color: #555;
+    color: #f5f5f5;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+}
